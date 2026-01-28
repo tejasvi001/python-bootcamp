@@ -1,0 +1,20 @@
+1. 3 available flavours;
+    a. espresso
+    b. latte
+    c. cappuccino
+
+2. each flavour has a specific recipe
+
+3. Coin Based Vending
+    dollar, cent , penny, quarter
+
+4. ingredients
+    water, coffee powder, milk, sugar
+
+5. cost of each coffee
+
+6. units while ordering
+
+7. ingredients check before preparing the coffee, if any ingredient is missing dont take order just display message
+
+8. Also show the available coin balance
