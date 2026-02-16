@@ -1,0 +1,18 @@
+from question_model import Question
+from data import question_data
+from quiz_brain import QuizBrain
+
+question_bank=[]
+for data in question_data:
+    question=Question(data["text"],data["answer"])
+    question_bank.append(question)
+
+quiz_brain=QuizBrain(question_bank)
+
+while quiz_brain.still_has_questions():
+    quiz_brain.next_question()
+
+
+print("The Game is ended ")
+score=quiz_brain.getScore()
+print(f"Your score was {score[0]}/{score[1]}")
